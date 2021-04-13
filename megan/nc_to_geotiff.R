@@ -192,7 +192,7 @@ out_plot <- ggplot() +
                        na.value = "white") + borders(database="state",
                                                      colour = "black") + 
   coord_fixed(xlim = plot_xlims,ylim=plot_ylims) + ggtitle(raster_name) +
-  labs(fill = "EF ISOP (nanomol/m^2/s)") + xlab("Latitude (dd)") + ylab("Longitude (dd)") + 
+  labs(fill = "EF MT PINE (nanomol/m^2/s)") + xlab("Latitude (dd)") + ylab("Longitude (dd)") + 
   #  geom_point(data = sites, aes(x = longitude, y = latitude), size = 4, 
   #             shape = 21, fill = "grey60") + 
   theme(legend.position="bottom",legend.key.width = unit(2, "cm"),legend.box="horizontal",
