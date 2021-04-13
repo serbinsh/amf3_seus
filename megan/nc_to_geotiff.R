@@ -30,6 +30,15 @@ invisible(lapply(list.of.packages, library, character.only = TRUE))
 
 
 #--------------------------------------------------------------------------------------------------#
+#### Output
+output_stats_raster_dir <- file.path("~/Data/RS_GIS_Data/MEGAN/")
+if (! file.exists(output_stats_raster_dir)) dir.create(file.path(output_stats_raster_dir),
+                                                       recursive=TRUE, 
+                                                       showWarnings = FALSE)
+#--------------------------------------------------------------------------------------------------#
+
+
+#--------------------------------------------------------------------------------------------------#
 ncpath <- "~/Data/AMF3/MEGAN/MEGAN31_Calc_Input_TCEQ12/MAP/"
 ncname <- "EFMAPS31.2019b.tceq_12km.J4"  
 ncfname <- paste(ncpath, ncname, ".ncf", sep="")
@@ -87,10 +96,13 @@ dat2
 
 dat3 <- projectRaster(dat2,crs=CRS("+init=epsg:4326"))
 dat3[dat3<=0] <- 0
+MEGAN_EF_ISOP_latlong <- dat3
 
 raster::writeRaster(dat2, filename = file.path(outdir,"MEGAN_EF_ISOP_LCC.tif"),
                     format = "GTiff", overwrite=T)
 raster::writeRaster(dat3, filename = file.path(outdir,"MEGAN_EF_ISOP_latlong.tif"),
+                    format = "GTiff", overwrite=T)
+raster::writeRaster(dat3, filename = file.path("~/Data/GitHub/amf3_seus/megan/","MEGAN_EF_ISOP_latlong.tif"),
                     format = "GTiff", overwrite=T)
 rm(dat_raster, dat, dat2, dat3)
 
@@ -115,10 +127,13 @@ dat2
 
 dat3 <- projectRaster(dat2,crs=CRS("+init=epsg:4326"))
 dat3[dat3<=0] <- 0
+MEGAN_EF_MT_PINE_latlong <- dat3
 
 raster::writeRaster(dat2, filename = file.path(outdir,"MEGAN_EF_MT_PINE_LCC.tif"),
                     format = "GTiff", overwrite=T)
 raster::writeRaster(dat3, filename = file.path(outdir,"MEGAN_EF_MT_PINE_latlong.tif"),
+                    format = "GTiff", overwrite=T)
+raster::writeRaster(dat3, filename = file.path("~/Data/GitHub/amf3_seus/megan/","MEGAN_EF_MT_PINE_latlong.tif"),
                     format = "GTiff", overwrite=T)
 rm(dat_raster, dat, dat2, dat3)
 
@@ -126,6 +141,80 @@ rm(dat_raster, dat, dat2, dat3)
 #--------------------------------------------------------------------------------------------------#
 
 
+#--------------------------------------------------------------------------------------------------#
+### Quicklooks
+#MEGAN_EF_ISOP_latlong
+#MEGAN_EF_MT_PINE_latlong
+
+plot_xlims <- c(-94,-77)
+plot_ylims <- c(28,39.5)
+
+raster_name <- "MEGAN_EF_ISOP"
+MEGAN_EF_ISOP_latlong_df <- as.data.frame(MEGAN_EF_ISOP_latlong, xy = TRUE) 
+out_plot <- ggplot() +
+  geom_raster(data = MEGAN_EF_ISOP_latlong_df , 
+              aes(x = x, y = y, 
+                  fill = EF_ISOP)) + 
+  scale_fill_gradientn(limits = c(0.001, 18.5),colours = rev(RColorBrewer::brewer.pal(11, "Spectral")),
+                       na.value = "white") + borders(database="state",
+                                                     colour = "black") + 
+  coord_fixed(xlim = plot_xlims,ylim=plot_ylims) + ggtitle(raster_name) +
+  labs(fill = "EF ISOP (nanomol/m^2/s)") + xlab("Latitude (dd)") + ylab("Longitude (dd)") + 
+#  geom_point(data = sites, aes(x = longitude, y = latitude), size = 4, 
+#             shape = 21, fill = "grey60") + 
+  theme(legend.position="bottom",legend.key.width = unit(2, "cm"),legend.box="horizontal",
+        legend.title = element_text(color = "black", size = 14, face="bold"),
+        legend.text = element_text(color = "black", size = 12),
+        panel.grid.major = element_line(colour = gray(0.5), linetype = "dashed", 
+                                        size = 0.5), 
+        axis.title.x = element_text(size=14, face="bold"),
+        axis.text.x = element_text(size=12),
+        axis.title.y = element_text(size=14, face="bold"),
+        axis.text.y = element_text(size=12),
+        panel.border = element_rect(colour = "black", fill=NA, size=2))
+
+out_plot
+
+fig_name <- paste0(raster_name,".png")
+ggsave(file.path(output_stats_raster_dir,fig_name), plot = out_plot, width = 26, 
+       height = 20, units = "cm", dpi = 300)
+
+ggsave(file.path("~/Data/GitHub/amf3_seus/megan/",fig_name), plot = out_plot, width = 26, 
+       height = 20, units = "cm", dpi = 300)
+
+raster_name <- "MEGAN_EF_MT_PINE"
+MEGAN_EF_MT_PINE_latlong_df <- as.data.frame(MEGAN_EF_MT_PINE_latlong, xy = TRUE) 
+out_plot <- ggplot() +
+  geom_raster(data = MEGAN_EF_MT_PINE_latlong_df , 
+              aes(x = x, y = y, 
+                  fill = EF_MT_PINE)) + 
+  scale_fill_gradientn(limits = c(0.001, 0.4),colours = rev(RColorBrewer::brewer.pal(11, "Spectral")),
+                       na.value = "white") + borders(database="state",
+                                                     colour = "black") + 
+  coord_fixed(xlim = plot_xlims,ylim=plot_ylims) + ggtitle(raster_name) +
+  labs(fill = "EF ISOP (nanomol/m^2/s)") + xlab("Latitude (dd)") + ylab("Longitude (dd)") + 
+  #  geom_point(data = sites, aes(x = longitude, y = latitude), size = 4, 
+  #             shape = 21, fill = "grey60") + 
+  theme(legend.position="bottom",legend.key.width = unit(2, "cm"),legend.box="horizontal",
+        legend.title = element_text(color = "black", size = 14, face="bold"),
+        legend.text = element_text(color = "black", size = 12),
+        panel.grid.major = element_line(colour = gray(0.5), linetype = "dashed", 
+                                        size = 0.5), 
+        axis.title.x = element_text(size=14, face="bold"),
+        axis.text.x = element_text(size=12),
+        axis.title.y = element_text(size=14, face="bold"),
+        axis.text.y = element_text(size=12),
+        panel.border = element_rect(colour = "black", fill=NA, size=2))
+
+out_plot
+
+fig_name <- paste0(raster_name,".png")
+ggsave(file.path(output_stats_raster_dir,fig_name), plot = out_plot, width = 26, 
+       height = 20, units = "cm", dpi = 300)
+
+ggsave(file.path("~/Data/GitHub/amf3_seus/megan/",fig_name), plot = out_plot, width = 26, 
+       height = 20, units = "cm", dpi = 300)
+#--------------------------------------------------------------------------------------------------#
 
 
 
@@ -139,15 +228,11 @@ rm(dat_raster, dat, dat2, dat3)
 
 
 
-
-
-
-
-
+### chaff
 #--------------------------------------------------------------------------------------------------#
 ### create projected matrix
-EF_ISOP <- ncvar_get(nc = ncin, varid = "EF_ISOP", verbose = F)
-EF_ISOPr <- raster(EF_ISOP)
+#EF_ISOP <- ncvar_get(nc = ncin, varid = "EF_ISOP", verbose = F)
+#EF_ISOPr <- raster(EF_ISOP)
 #rext <- extent(0, 512, 0, 512)
 #extent(EF_ISOPr) <- rext
 #EF_ISOPr <- setExtent(EF_ISOPr, rext, keepres=TRUE)
@@ -156,32 +241,28 @@ EF_ISOPr <- raster(EF_ISOP)
 #crs(EF_ISOPr) <- CRS('+init=EPSG:102009')
 #crs(EF_ISOPr) <- CRS("+init=epsg:102009")
 #crs <- CRS("+proj=lcc +lat_1=30 +lat_2=60 +lat_0=38 +lon_0=126 +datum=WGS84")
-crs <- CRS("+proj=lcc +lat_0=40.0 +lon_0=-97 +lat_1=33 +lat_2=45 +R=6370000.0 +datum=WGS84")
-xy <- expand.grid(X,Y)
-p <- SpatialPoints(xy, proj4string=crs)
-extent(p)
+#crs <- CRS("+proj=lcc +lat_0=40.0 +lon_0=-97 +lat_1=33 +lat_2=45 +R=6370000.0 +datum=WGS84")
+#xy <- expand.grid(X,Y)
+#p <- SpatialPoints(xy, proj4string=crs)
+#extent(p)
 
-
-crs(EF_ISOPr) <- crs
-EF_ISOPr
+#crs(EF_ISOPr) <- crs
+#EF_ISOPr
 #image(EF_ISOPr)
-plot(EF_ISOPr)
+#plot(EF_ISOPr)
 
-pr1 <- projectRaster(EF_ISOPr, crs="+proj=lcc +lat_0=40.0 +lon_0=-97 +lat_1=33 +lat_2=45 +R=6370000.0")
+#pr1 <- projectRaster(EF_ISOPr, crs="+proj=lcc +lat_0=40.0 +lon_0=-97 +lat_1=33 +lat_2=45 +R=6370000.0")
 
-coordinates(EF_ISOPr)
+#coordinates(EF_ISOPr)
 
-EF_ISOPr <- extent(EF_ISOPr,matrix(c(0, 512, 0, 512), nrow=2))
-r <- EF_ISOPr
-xyFromCell(r, c(1, ncol(r), ncell(r)-ncol(r)+1, ncell(r)))
+#EF_ISOPr <- extent(EF_ISOPr,matrix(c(0, 512, 0, 512), nrow=2))
+#r <- EF_ISOPr
+#xyFromCell(r, c(1, ncol(r), ncell(r)-ncol(r)+1, ncell(r)))
 
-xFromCol(r, c(1, 120, 180))
+#xFromCol(r, c(1, 120, 180))
 
-XY <- as.matrix(expand.grid(X,Y))
-dim(XY)
+#XY <- as.matrix(expand.grid(X,Y))
+#dim(XY)
 
 #--------------------------------------------------------------------------------------------------#
-
-nc_close(ncin)
-
-
+### EOF
