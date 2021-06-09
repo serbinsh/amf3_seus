@@ -7,7 +7,7 @@
 #
 #
 #
-#  	--- Last updated:  04.09.2021 BY Shawn P. Serbin <sserbin@bnl.gov>
+#  	--- Last updated:  06.09.2021 BY Shawn P. Serbin <sserbin@bnl.gov>
 ####################################################################################################
 
 
@@ -34,13 +34,13 @@ invisible(lapply(list.of.packages, library, character.only = TRUE))
 
 #--------------------------------------------------------------------------------------------------#
 ### Function arguments
-local_ascii_storage_dir <- file.path("~/Data/TROPOMI/ascii_grid_files")
+local_ascii_storage_dir <- file.path("~/Data/RS_GIS_Data/TROPOMI/ascii_grid_files")
 if (! file.exists(local_ascii_storage_dir)) dir.create(file.path(local_ascii_storage_dir),recursive=TRUE, 
                                                  showWarnings = FALSE)
-local_geotiff_storage_dir <- file.path("~/Data/TROPOMI/geotiff_grid_files")
+local_geotiff_storage_dir <- file.path("~/Data/RS_GIS_Data//TROPOMI/geotiff_grid_files")
 if (! file.exists(local_geotiff_storage_dir)) dir.create(file.path(local_geotiff_storage_dir),recursive=TRUE, 
                                                  showWarnings = FALSE)
-local_figure_dir <- file.path("~/Data/TROPOMI/quicklooks")
+local_figure_dir <- file.path("~/Data/RS_GIS_Data/TROPOMI/quicklooks")
 if (! file.exists(local_figure_dir)) dir.create(file.path(local_figure_dir),recursive=TRUE, 
                                                  showWarnings = FALSE)
 # download function
@@ -49,7 +49,7 @@ if (! file.exists(local_figure_dir)) dir.create(file.path(local_figure_dir),recu
 #temis_data_url <- "https://d1qb6yzwaaq4he.cloudfront.net/tropomi/no2/2020/12/no2_202012.asc.gz"
 temis_data_url <- "https://d1qb6yzwaaq4he.cloudfront.net"
 product_year <- 2021
-product_months <- seq(01,02,1)
+product_months <- seq(03,04,1)
 overwrite_download = TRUE
 run_parallel = TRUE
 if (run_parallel) {  # temporary work around

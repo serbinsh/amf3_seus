@@ -1,7 +1,7 @@
 ####################################################################################################
 #
 #
-#  	--- Last updated:  04.09.2021 BY Shawn P. Serbin <sserbin@bnl.gov>
+#  	--- Last updated:  06.09.2021 BY Shawn P. Serbin <sserbin@bnl.gov>
 ####################################################################################################
 
 
@@ -37,21 +37,21 @@ invisible(lapply(list.of.packages, library, character.only = TRUE))
 #raster_name <- "DJF_Tropospheric_NO2_maxvalcomp"
 #product_months <- c(03,04,05) # spring
 #raster_name <- "MAM_Tropospheric_NO2_maxvalcomp"
-#product_months <- c(06,07,08) # summer
-#raster_name <- "JJA_Tropospheric_NO2_maxvalcomp"
+product_months <- c(06,07,08) # summer
+raster_name <- "JJA_Tropospheric_NO2_maxvalcomp"
 
-product_months <- seq(1,12,1) # annual
-raster_name <- "Annual_Tropospheric_NO2_maxvalcomp"
+#product_months <- seq(1,12,1) # annual
+#raster_name <- "Annual_Tropospheric_NO2_maxvalcomp"
 
 #--------------------------------------------------------------------------------------------------#
 
 
 #--------------------------------------------------------------------------------------------------#
 #### Input geotiffs
-local_geotiff_storage_dir <- file.path("~/Data/TROPOMI/geotiff_grid_files")
+local_geotiff_storage_dir <- file.path("~/Data/RS_GIS_Data/TROPOMI/geotiff_grid_files")
 
 #### Output
-output_stats_raster_dir <- file.path("~/Data/TROPOMI/geotiff_stats")
+output_stats_raster_dir <- file.path("~/Data/RS_GIS_Data/TROPOMI/geotiff_stats")
 if (! file.exists(output_stats_raster_dir)) dir.create(file.path(output_stats_raster_dir),recursive=TRUE, 
                                                          showWarnings = FALSE)
 #--------------------------------------------------------------------------------------------------#
