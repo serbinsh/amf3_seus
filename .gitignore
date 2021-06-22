@@ -41,3 +41,6 @@ vignettes/*.pdf
 # MacOSX
 .DS_Store
 ._DS_Store
+
+# data
+*eddy_covariance*

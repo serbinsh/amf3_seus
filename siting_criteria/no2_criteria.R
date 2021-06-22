@@ -1,7 +1,7 @@
 ####################################################################################################
 #
 #
-#  	--- Last updated:  04.13.2021 BY Shawn P. Serbin <sserbin@bnl.gov>
+#  	--- Last updated:  06.09.2021 BY Shawn P. Serbin <sserbin@bnl.gov>
 ####################################################################################################
 
 
@@ -19,7 +19,7 @@ closeAllConnections()   # close any open connections to files
 devtools::install_github("valentinitnelav/geobuffer")
 
 list.of.packages <- c("raster","maps","mapdata","maptools","ggplot2","ncdf4","sf","rgdal",
-                      "ggspatial","rnaturalearth")
+                      "ggspatial","rnaturalearth","here")
 # check for dependencies and install if needed
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages, dependencies=c("Depends", "Imports",
@@ -32,7 +32,7 @@ invisible(lapply(list.of.packages, library, character.only = TRUE))
 
 #--------------------------------------------------------------------------------------------------#
 #### Output
-output_stats_raster_dir <- file.path("~/Data/GitHub/amf3_seus/siting_criteria/maps/")
+output_stats_raster_dir <- file.path(here(),"maps/")
 if (! file.exists(output_stats_raster_dir)) dir.create(file.path(output_stats_raster_dir),
                                                        recursive=TRUE, 
                                                        showWarnings = FALSE)
@@ -81,7 +81,7 @@ no2_stack
 
 
 # get the GIS layers
-gis_data <- file.path("~/Data/GitHub/amf3_seus/shapefiles/")
+gis_data <- file.path(here(),"/shapefiles/")
 #nexrad_points <- st_read(file.path(gis_data,"nexrad/nexrad.shp"))
 #nexrad_points_sf <- st_as_sf(nexrad_points, 
 #                   crs = 4326, agr = "constant")
@@ -160,7 +160,7 @@ plot_ylims <- c(26,38.2)
 library(rnaturalearth)
 coast <- ne_countries(country = "United States of America")
 
-no2_stack_crop <- raster::crop(no2_stack, extent(usamap))
+#no2_stack_crop <- raster::crop(no2_stack, extent(usamap))
 no2_masked <- mask(no2_stack, coast, inverse = FALSE)
 
 raster_name <- "Annual_Tropospheric_NO2_maxvalcomp_w_nexrad"
