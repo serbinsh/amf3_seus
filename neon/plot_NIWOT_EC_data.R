@@ -130,3 +130,101 @@ box(lwd=2.2)
 dev.off()
 
 #--------------------------------------------------------------------------------------------------#
+
+
+#--------------------------------------------------------------------------------------------------#
+### get met data
+
+#PAR/met
+pr <- loadByProduct("DP1.00024.001", site=site, 
+                    timeIndex=30, package="basic", 
+                    startdate="2017-12", enddate="2020-01",
+                    check.size=F)
+
+pr.top <- pr$PARPAR_30min[which(pr$PARPAR_30min$verticalPosition==
+                                  max(pr$PARPAR_30min$verticalPosition)),]
+names(pr.top)
+
+png(file = file.path(output_data_dir, "PAR_all_dates.png"),height=3000,
+    width=4300, res=340)
+plot(pr.top$PARMean~pr.top$startDateTime, pch=20, xlab="Date", 
+     ylab="PAR (umols m-2 s-1)", main="Niwot Ridge")
+box(lwd=2.2)
+dev.off()
+
+#Tair
+Tair <- loadByProduct("DP1.00003.001", site=site, 
+                      timeIndex=30, package="basic", 
+                      startdate="2017-12", enddate="2020-01",
+                      check.size=F)
+Tair$sensor_positions_00003
+Tair$variables_00003
+Tair$TAAT_30min
+head(Tair$TAAT_30min)
+
+png(file = file.path(output_data_dir, "Tair_all_dates.png"),height=3000,
+    width=4300, res=340)
+plot(Tair$TAAT_30min$tempTripleMean~Tair$TAAT_30min$startDateTime, pch=20, xlab="Date", 
+     ylab="Tair (deg C)", main="Niwot Ridge")
+box(lwd=2.2)
+dev.off()
+#--------------------------------------------------------------------------------------------------#
+
+
+#--------------------------------------------------------------------------------------------------#
+pr.top$timeBgn <- pr.top$startDateTime
+fx.pr <- merge(pr.top, fluxes[[site[site_num]]], by="timeBgn")
+
+png(file = file.path(output_data_dir, "NSAE_CO2_flux_vs_PAR_all_dates.png"),height=3000,
+    width=4300, res=340)
+plot(fx.pr$data.fluxCo2.nsae.flux~fx.pr$PARMean,
+     pch=".", ylim=c(-20,20),
+     xlab="PAR (umols m-2 s-1)", ylab="Net Surface-Atmosphere CO2 flux (umolCo2 m-2 s-1)",
+     main="Niwot Ridge")
+box(lwd=2.2)
+dev.off()
+
+
+Tair$TAAT_30min$timeBgn <- Tair$TAAT_30min$startDateTime
+fx.pr.tair <- merge(Tair$TAAT_30min, fluxes[[site[site_num]]], by="timeBgn")
+
+png(file = file.path(output_data_dir, "NSAE_CO2_flux_vs_Tair_all_dates.png"),height=3000,
+    width=4300, res=340)
+plot(fx.pr.tair$data.fluxCo2.nsae.flux~fx.pr.tair$tempTripleMean,
+     pch=".", ylim=c(-35,35),
+     xlab="Tair (deg C)", ylab="Net Surface-Atmosphere CO2 flux (umolCo2 m-2 s-1)",
+     main="Niwot Ridge")
+box(lwd=2.2)
+dev.off()
+
+fx.pr.2 <- fx.pr %>%
+  filter(timeBgn >= as.POSIXct("2018-07-01", tz="GMT")) %>%
+  filter(timeBgn <= as.POSIXct("2018-07-15", tz="GMT"))
+
+
+png(file = file.path(output_data_dir, "NSAE_CO2_flux_vs_PAR_July2018.png"),height=3000,
+    width=4300, res=340)
+plot(fx.pr.2$data.fluxCo2.nsae.flux~fx.pr.2$PARMean,
+     pch=20, ylim=c(-15,15),
+     xlab="PAR (umols m-2 s-1)", ylab="Net Surface-Atmosphere CO2 flux (umolCo2 m-2 s-1)",
+     main="Niwot Ridge")
+box(lwd=2.2)
+box(lwd=2.2)
+dev.off()
+
+
+fx.pr.tair.2 <- fx.pr.tair %>%
+  filter(timeBgn >= as.POSIXct("2018-07-01", tz="GMT")) %>%
+  filter(timeBgn <= as.POSIXct("2018-07-15", tz="GMT"))
+
+png(file = file.path(output_data_dir, "NSAE_CO2_flux_vs_Tair_July2018.png"),height=3000,
+    width=4300, res=340)
+plot(fx.pr.tair.2$data.fluxCo2.nsae.flux~fx.pr.tair.2$tempTripleMean,
+     pch=20, ylim=c(-35,35),
+     xlab="Tair (deg C)", ylab="Net Surface-Atmosphere CO2 flux (umolCo2 m-2 s-1)",
+     main="Niwot Ridge")
+box(lwd=2.2)
+dev.off()
+
+#--------------------------------------------------------------------------------------------------#
+

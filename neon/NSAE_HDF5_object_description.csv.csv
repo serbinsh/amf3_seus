@@ -1,0 +1,647 @@
+Object,Description
+000_010_01m,"data product at the tower (HOR = 000), first level (VER = 010) and 1 minute time resolution (TMI = 01m)"
+000_010_02m,"data product at the tower (HOR = 000), first level (VER = 010) and 2 minute time resolution (TMI = 02m)"
+000_010_09m,"data product at the tower (HOR = 000), first level (VER = 010) and 9 minute time resolution (TMI = 09m)"
+000_010_30m,"data product at the tower (HOR = 000), first level (VER = 010) and 30 minute time resolution (TMI = 30m)"
+000_020_01m,"data product at the tower (HOR = 000), second level (VER = 020) and 1 minute time resolution (TMI = 01m)"
+000_020_02m,"data product at the tower (HOR = 000), second level (VER = 020) and 2 minute time resolution (TMI = 02m)"
+000_020_09m,"data product at the tower (HOR = 000), second level (VER = 020) and 9 minute time resolution (TMI = 09m)"
+000_020_30m,"data product at the tower (HOR = 000), second level (VER = 020) and 30 minute time resolution (TMI = 30m)"
+000_030_01m,"data product at the tower (HOR = 000), third level (VER = 030) and 1 minute time resolution (TMI = 01m)"
+000_030_02m,"data product at the tower (HOR = 000), third level (VER = 030) and 2 minute time resolution (TMI = 02m)"
+000_030_09m,"data product at the tower (HOR = 000), third level (VER = 030) and 9 minute time resolution (TMI = 09m)"
+000_030_30m,"data product at the tower (HOR = 000), third level (VER = 030) and 30 minute time resolution (TMI = 30m)"
+000_040_01m,"data product at the tower (HOR = 000), fourth level (VER = 040) and 1 minute time resolution (TMI = 01m)"
+000_040_02m,"data product at the tower (HOR = 000), fourth level (VER = 040) and 2 minute time resolution (TMI = 02m)"
+000_040_09m,"data product at the tower (HOR = 000), fourth level (VER = 040) and 9 minute time resolution (TMI = 09m)"
+000_040_30m,"data product at the tower (HOR = 000), fourth level (VER = 040) and 30 minute time resolution (TMI = 30m)"
+000_050_01m,"data product at the tower (HOR = 000), fifth level (VER = 050) and 1 minute time resolution (TMI = 01m)"
+000_050_02m,"data product at the tower (HOR = 000), fifth level (VER = 050) and 2 minute time resolution (TMI = 02m)"
+000_050_09m,"data product at the tower (HOR = 000), fifth level (VER = 050) and 9 minute time resolution (TMI = 09m)"
+000_050_30m,"data product at the tower (HOR = 000), fifth level (VER = 050) and 30 minute time resolution (TMI = 30m)"
+000_060_01m,"data product at the tower (HOR = 000), sixth level (VER = 060) and 1 minute time resolution (TMI = 01m)"
+000_060_02m,"data product at the tower (HOR = 000), sixth level (VER = 060) and 2 minute time resolution (TMI = 02m)"
+000_060_09m,"data product at the tower (HOR = 000), sixth level (VER = 060) and 9 minute time resolution (TMI = 09m)"
+000_060_30m,"data product at the tower (HOR = 000), sixth level (VER = 060) and 30 minute time resolution (TMI = 30m)"
+000_070_01m,"data product at the tower (HOR = 000), severth level (VER = 070) and 1 minute time resolution (TMI = 01m)"
+000_070_02m,"data product at the tower (HOR = 000), severth level (VER = 070) and 2 minute time resolution (TMI = 02m)"
+000_070_09m,"data product at the tower (HOR = 000), severth level (VER = 070) and 9 minute time resolution (TMI = 09m)"
+000_070_30m,"data product at the tower (HOR = 000), severth level (VER = 070) and 30 minute time resolution (TMI = 30m)"
+000_080_01m,"data product at the tower (HOR = 000), eighth level (VER = 080) and 1 minute time resolution (TMI = 01m)"
+000_080_02m,"data product at the tower (HOR = 000), eighth level (VER = 080) and 2 minute time resolution (TMI = 02m)"
+000_080_09m,"data product at the tower (HOR = 000), eighth level (VER = 080) and 9 minute time resolution (TMI = 09m)"
+000_080_30m,"data product at the tower (HOR = 000), eighth level (VER = 080) and 30 minute time resolution (TMI = 30m)"
+001_501_1m,"data product in the soil plot 1 (HOR = 001), first depth (VER = 501) and 1 minute time resolution (TMI = 01m)"
+001_501_30m,"data product in the soil plot 1 (HOR = 001), first depth (VER = 501) and 30 minute time resolution (TMI = 30m)"
+001_502_1m,"data product in the soil plot 1 (HOR = 001), second depth (VER = 502) and 1 minute time resolution (TMI = 01m)"
+001_502_30m,"data product in the soil plot 1 (HOR = 001), second depth (VER = 502) and 30 minute time resolution (TMI = 30m)"
+001_503_1m,"data product in the soil plot 1 (HOR = 001), third depth (VER = 503) and 1 minute time resolution (TMI = 01m)"
+001_503_30m,"data product in the soil plot 1 (HOR = 001), third depth (VER = 503) and 30 minute time resolution (TMI = 30m)"
+001_504_1m,"data product in the soil plot 1 (HOR = 001), fourth depth (VER = 504) and 1 minute time resolution (TMI = 01m)"
+001_504_30m,"data product in the soil plot 1 (HOR = 001), fourth depth (VER = 504) and 30 minute time resolution (TMI = 30m)"
+001_505_1m,"data product in the soil plot 1 (HOR = 001), fifth depth (VER = 505) and 1 minute time resolution (TMI = 01m)"
+001_505_30m,"data product in the soil plot 1 (HOR = 001), fifth depth (VER = 505) and 30 minute time resolution (TMI = 30m)"
+001_506_1m,"data product in the soil plot 1 (HOR = 001), sixth depth (VER = 506) and 1 minute time resolution (TMI = 01m)"
+001_506_30m,"data product in the soil plot 1 (HOR = 001), sixth depth (VER = 506) and 30 minute time resolution (TMI = 30m)"
+001_507_1m,"data product in the soil plot 1 (HOR = 001), seventh depth (VER = 507) and 1 minute time resolution (TMI = 01m)"
+001_507_30m,"data product in the soil plot 1 (HOR = 001), seventh depth (VER = 507) and 30 minute time resolution (TMI = 30m)"
+001_508_1m,"data product in the soil plot 1 (HOR = 001), eighth depth (VER = 508) and 1 minute time resolution (TMI = 01m)"
+001_508_30m,"data product in the soil plot 1 (HOR = 001), eighth depth (VER = 508) and 30 minute time resolution (TMI = 30m)"
+001_509_1m,"data product in the soil plot 1 (HOR = 001), nineth depth (VER = 509) and 1 minute time resolution (TMI = 01m)"
+001_509_30m,"data product in the soil plot 1 (HOR = 001), nineth depth (VER = 509) and 30 minute time resolution (TMI = 30m)"
+002_501_1m,"data product in the soil plot 2 (HOR = 002), first depth (VER = 501) and 1 minute time resolution (TMI = 01m)"
+002_501_30m,"data product in the soil plot 2 (HOR = 002), first depth (VER = 501) and 30 minute time resolution (TMI = 30m)"
+002_502_1m,"data product in the soil plot 2 (HOR = 002), second depth (VER = 502) and 1 minute time resolution (TMI = 01m)"
+002_502_30m,"data product in the soil plot 2 (HOR = 002), second depth (VER = 502) and 30 minute time resolution (TMI = 30m)"
+002_503_1m,"data product in the soil plot 2 (HOR = 002), third depth (VER = 503) and 1 minute time resolution (TMI = 01m)"
+002_503_30m,"data product in the soil plot 2 (HOR = 002), third depth (VER = 503) and 30 minute time resolution (TMI = 30m)"
+002_504_1m,"data product in the soil plot 2 (HOR = 002), fourth depth (VER = 504) and 1 minute time resolution (TMI = 01m)"
+002_504_30m,"data product in the soil plot 2 (HOR = 002), fourth depth (VER = 504) and 30 minute time resolution (TMI = 30m)"
+002_505_1m,"data product in the soil plot 2 (HOR = 002), fifth depth (VER = 505) and 1 minute time resolution (TMI = 01m)"
+002_505_30m,"data product in the soil plot 2 (HOR = 002), fifth depth (VER = 505) and 30 minute time resolution (TMI = 30m)"
+002_506_1m,"data product in the soil plot 2 (HOR = 002), sixth depth (VER = 506) and 1 minute time resolution (TMI = 01m)"
+002_506_30m,"data product in the soil plot 2 (HOR = 002), sixth depth (VER = 506) and 30 minute time resolution (TMI = 30m)"
+002_507_1m,"data product in the soil plot 2 (HOR = 002), seventh depth (VER = 507) and 1 minute time resolution (TMI = 01m)"
+002_507_30m,"data product in the soil plot 2 (HOR = 002), seventh depth (VER = 507) and 30 minute time resolution (TMI = 30m)"
+002_508_1m,"data product in the soil plot 2 (HOR = 002), eighth depth (VER = 508) and 1 minute time resolution (TMI = 01m)"
+002_508_30m,"data product in the soil plot 2 (HOR = 002), eighth depth (VER = 508) and 30 minute time resolution (TMI = 30m)"
+002_509_1m,"data product in the soil plot 2 (HOR = 002), nineth depth (VER = 509) and 1 minute time resolution (TMI = 01m)"
+002_509_30m,"data product in the soil plot 2 (HOR = 002), nineth depth (VER = 509) and 30 minute time resolution (TMI = 30m)"
+003_501_1m,"data product in the soil plot 3 (HOR = 003), first depth (VER = 501) and 1 minute time resolution (TMI = 01m)"
+003_501_30m,"data product in the soil plot 3 (HOR = 003), first depth (VER = 501) and 30 minute time resolution (TMI = 30m)"
+003_502_1m,"data product in the soil plot 3 (HOR = 003), second depth (VER = 502) and 1 minute time resolution (TMI = 01m)"
+003_502_30m,"data product in the soil plot 3 (HOR = 003), second depth (VER = 502) and 30 minute time resolution (TMI = 30m)"
+003_503_1m,"data product in the soil plot 3 (HOR = 003), third depth (VER = 503) and 1 minute time resolution (TMI = 01m)"
+003_503_30m,"data product in the soil plot 3 (HOR = 003), third depth (VER = 503) and 30 minute time resolution (TMI = 30m)"
+003_504_1m,"data product in the soil plot 3 (HOR = 003), fourth depth (VER = 504) and 1 minute time resolution (TMI = 01m)"
+003_504_30m,"data product in the soil plot 3 (HOR = 003), fourth depth (VER = 504) and 30 minute time resolution (TMI = 30m)"
+003_505_1m,"data product in the soil plot 3 (HOR = 003), fifth depth (VER = 505) and 1 minute time resolution (TMI = 01m)"
+003_505_30m,"data product in the soil plot 3 (HOR = 003), fifth depth (VER = 505) and 30 minute time resolution (TMI = 30m)"
+003_506_1m,"data product in the soil plot 3 (HOR = 003), sixth depth (VER = 506) and 1 minute time resolution (TMI = 01m)"
+003_506_30m,"data product in the soil plot 3 (HOR = 003), sixth depth (VER = 506) and 30 minute time resolution (TMI = 30m)"
+003_507_1m,"data product in the soil plot 3 (HOR = 003), seventh depth (VER = 507) and 1 minute time resolution (TMI = 01m)"
+003_507_30m,"data product in the soil plot 3 (HOR = 003), seventh depth (VER = 507) and 30 minute time resolution (TMI = 30m)"
+003_508_1m,"data product in the soil plot 3 (HOR = 003), eighth depth (VER = 508) and 1 minute time resolution (TMI = 01m)"
+003_508_30m,"data product in the soil plot 3 (HOR = 003), eighth depth (VER = 508) and 30 minute time resolution (TMI = 30m)"
+003_509_1m,"data product in the soil plot 3 (HOR = 003), nineth depth (VER = 509) and 1 minute time resolution (TMI = 01m)"
+003_509_30m,"data product in the soil plot 3 (HOR = 003), nineth depth (VER = 509) and 30 minute time resolution (TMI = 30m)"
+004_501_1m,"data product in the soil plot 4 (HOR = 004), first depth (VER = 501) and 1 minute time resolution (TMI = 01m)"
+004_501_30m,"data product in the soil plot 4 (HOR = 004), first depth (VER = 501) and 30 minute time resolution (TMI = 30m)"
+004_502_1m,"data product in the soil plot 4 (HOR = 004), second depth (VER = 502) and 1 minute time resolution (TMI = 01m)"
+004_502_30m,"data product in the soil plot 4 (HOR = 004), second depth (VER = 502) and 30 minute time resolution (TMI = 30m)"
+004_503_1m,"data product in the soil plot 4 (HOR = 004), third depth (VER = 503) and 1 minute time resolution (TMI = 01m)"
+004_503_30m,"data product in the soil plot 4 (HOR = 004), third depth (VER = 503) and 30 minute time resolution (TMI = 30m)"
+004_504_1m,"data product in the soil plot 4 (HOR = 004), fourth depth (VER = 504) and 1 minute time resolution (TMI = 01m)"
+004_504_30m,"data product in the soil plot 4 (HOR = 004), fourth depth (VER = 504) and 30 minute time resolution (TMI = 30m)"
+004_505_1m,"data product in the soil plot 4 (HOR = 004), fifth depth (VER = 505) and 1 minute time resolution (TMI = 01m)"
+004_505_30m,"data product in the soil plot 4 (HOR = 004), fifth depth (VER = 505) and 30 minute time resolution (TMI = 30m)"
+004_506_1m,"data product in the soil plot 4 (HOR = 004), sixth depth (VER = 506) and 1 minute time resolution (TMI = 01m)"
+004_506_30m,"data product in the soil plot 4 (HOR = 004), sixth depth (VER = 506) and 30 minute time resolution (TMI = 30m)"
+004_507_1m,"data product in the soil plot 4 (HOR = 004), seventh depth (VER = 507) and 1 minute time resolution (TMI = 01m)"
+004_507_30m,"data product in the soil plot 4 (HOR = 004), seventh depth (VER = 507) and 30 minute time resolution (TMI = 30m)"
+004_508_1m,"data product in the soil plot 4 (HOR = 004), eighth depth (VER = 508) and 1 minute time resolution (TMI = 01m)"
+004_508_30m,"data product in the soil plot 4 (HOR = 004), eighth depth (VER = 508) and 30 minute time resolution (TMI = 30m)"
+004_509_1m,"data product in the soil plot 4 (HOR = 004), nineth depth (VER = 509) and 1 minute time resolution (TMI = 01m)"
+004_509_30m,"data product in the soil plot 4 (HOR = 004), nineth depth (VER = 509) and 30 minute time resolution (TMI = 30m)"
+005_501_1m,"data product in the soil plot 5 (HOR = 005), first depth (VER = 501) and 1 minute time resolution (TMI = 01m)"
+005_501_30m,"data product in the soil plot 5 (HOR = 005), first depth (VER = 501) and 30 minute time resolution (TMI = 30m)"
+005_502_1m,"data product in the soil plot 5 (HOR = 005), second depth (VER = 502) and 1 minute time resolution (TMI = 01m)"
+005_502_30m,"data product in the soil plot 5 (HOR = 005), second depth (VER = 502) and 30 minute time resolution (TMI = 30m)"
+005_503_1m,"data product in the soil plot 5 (HOR = 005), third depth (VER = 503) and 1 minute time resolution (TMI = 01m)"
+005_503_30m,"data product in the soil plot 5 (HOR = 005), third depth (VER = 503) and 30 minute time resolution (TMI = 30m)"
+005_504_1m,"data product in the soil plot 5 (HOR = 005), fourth depth (VER = 504) and 1 minute time resolution (TMI = 01m)"
+005_504_30m,"data product in the soil plot 5 (HOR = 005), fourth depth (VER = 504) and 30 minute time resolution (TMI = 30m)"
+005_505_1m,"data product in the soil plot 5 (HOR = 005), fifth depth (VER = 505) and 1 minute time resolution (TMI = 01m)"
+005_505_30m,"data product in the soil plot 5 (HOR = 005), fifth depth (VER = 505) and 30 minute time resolution (TMI = 30m)"
+005_506_1m,"data product in the soil plot 5 (HOR = 005), sixth depth (VER = 506) and 1 minute time resolution (TMI = 01m)"
+005_506_30m,"data product in the soil plot 5 (HOR = 005), sixth depth (VER = 506) and 30 minute time resolution (TMI = 30m)"
+005_507_1m,"data product in the soil plot 5 (HOR = 005), seventh depth (VER = 507) and 1 minute time resolution (TMI = 01m)"
+005_507_30m,"data product in the soil plot 5 (HOR = 005), seventh depth (VER = 507) and 30 minute time resolution (TMI = 30m)"
+005_508_1m,"data product in the soil plot 5 (HOR = 005), eighth depth (VER = 508) and 1 minute time resolution (TMI = 01m)"
+005_508_30m,"data product in the soil plot 5 (HOR = 005), eighth depth (VER = 508) and 30 minute time resolution (TMI = 30m)"
+005_509_1m,"data product in the soil plot 5 (HOR = 005), nineth depth (VER = 509) and 1 minute time resolution (TMI = 01m)"
+005_509_30m,"data product in the soil plot 5 (HOR = 005), nineth depth (VER = 509) and 30 minute time resolution (TMI = 30m)"
+ABBY,Abby Road NEON site code
+accXaxs,"Linear acceleration (acc) in attitude and motion reference system along-axis direction (Xaxs), positive forward"
+accXaxsDiff,"Linear acceleration (acc) in attitude and motion reference system along-axis direction (Xaxs), positive forward, after subtraction of acceleration due to earth's gravity (diff), also known as free acceleration"
+accYaxs,"Linear acceleration (acc) in attitude and motion reference system cross-axis direction (Yaxs), positive left"
+accYaxsDiff,"Linear acceleration (acc) in attitude and motion reference system cross-axis direction (Yaxs), positive left, after subtraction of acceleration due to earth's gravity (diff), also known as free acceleration"
+accZaxs,"Linear acceleration (acc) in attitude and motion reference system vertical-axis direction (Zaxs), positive upwards"
+accZaxsDiff,"Linear acceleration (acc) in attitude and motion reference system vertical-axis direction (Zaxs), positive upwards, after subtraction of acceleration due to earth's gravity (diff), also known as free acceleration"
+amrs,The level 0' and level 1 data product name for the data coming from the attitude motion reference system (AMRS)
+angNedXaxs,"Angle (ang) around the attitude and motion reference system along-axis (Xaxs), after rotation into a North-East-Down coordinate reference frame, synonymous with roll angle"
+angNedYaxs,"Angle (ang) around the attitude and motion reference system vertical-axis (Zaxs), after rotation into a North-East-Down coordinate reference frame, synonymous with yaw angle"
+AngNedZaxs,Angle the sonic anemometer was deployed in the North-East-Down coordinate system
+angNedZaxs,"Angle (ang) around the attitude and motion reference system cross-axis (Yaxs), after rotation into a North-East-Down coordinate reference frame, synonymous with pitch angle"
+angXaxs,"Angle (ang) around the attitude and motion reference system along-axis (Xaxs), positive in clockwise direction, synonymous with roll angle"
+angYaxs,"Angle (ang) around the attitude and motion reference system cross-axis (Yaxs), positive in clockwise direction, synonymous with pitch angle"
+angZaxs,"Angle (ang) around the attitude and motion reference system vertical-axis (Zaxs), positive in clockwise direction, synonymous with yaw angle"
+angZaxsErth,Wind direction 
+asrpCo2,CO2 raw absorptance
+asrpH2o,H2O raw absorptance
+avelXaxs,"Angular velocity (avel) around the attitude and motion reference system along-axis (Xaxs), positive in clockwise direction, synonymous with roll rate"
+avelYaxs,"Angular velocity (avel) around the attitude and motion reference system cross-axis (Yaxs), positive in clockwise direction, synonymous with pitch rate"
+avelZaxs,"Angular velocity (avel) around the attitude and motion reference system vertical-axis (Zaxs), positive in clockwise direction, synonymous with yaw rate"
+BARR,Barrow Environmental Observatory NEON site code
+BART,Bartlett Experimental Forest NEON site code
+BLAN,Blandy Experimental Farm NEON site code
+BONA,Caribou Creek - Poker Flats Watershed NEON site code
+Cal$PrdFld,The time period interval for field calibration (i.e. daily calibration)
+CLBJ,LBJ National Grassland NEON site code
+co2Arch_02m,data product during field calibration/validation using Archive (long-term) CO2 reference gas with known concentration and 2 minute time resolution (TMI = 02m)
+co2Arch_09m,data product during field calibration/validation using Archive (long-term) CO2 reference gas with known concentration and 9 minute time resolution (TMI = 09m)
+co2Arch_30m,data product during field calibration/validation using Archive (long-term) CO2 reference gas with known concentration and 30 minute time resolution (TMI = 30m)
+co2High_02m,data product during field calibration/validation using High CO2 reference gas with known concentration and 2 minute time resolution (TMI = 02m)
+co2High_09m,data product during field calibration/validation using High CO2 reference gas with known concentration and 9 minute time resolution (TMI = 09m)
+co2High_30m,data product during field calibration/validation using High CO2 reference gas with known concentration and 30 minute time resolution (TMI = 30m)
+co2Low_02m,data product during field calibration/validation using Low CO2 reference gas with known concentration and 2 minute time resolution (TMI = 02m)
+co2Low_09m,data product during field calibration/validation using Low CO2 reference gas with known concentration and 9 minute time resolution (TMI = 09m)
+co2Low_30m,data product during field calibration/validation using Low CO2 reference gas with known concentration and 30 minute time resolution (TMI = 30m)
+co2Med_02m,data product during field calibration/validation using Medium (intermediate) CO2 reference gas with known concentration and 2 minute time resolution (TMI = 02m)
+co2Med_09m,data product during field calibration/validation using Medium (intermediate) CO2 reference gas with known concentration and 9 minute time resolution (TMI = 09m)
+co2Med_30m,data product during field calibration/validation using Medium (intermediate) CO2 reference gas with known concentration and 30 minute time resolution (TMI = 30m)
+co2Stor,Storage (or profile) CO2  related data products
+co2Turb,Tubulent CO2 concentration related data products
+co2Zero_02m,data product during field calibration/validation using Zero air reference gas with known concentration and 2 minute time resolution (TMI = 02m)
+co2Zero_30m,data product during field calibration/validation using Zero air reference gas with known concentration and 30 minute time resolution (TMI = 30m)
+crdCo2,Measurements of CO2 and isotopic 13C in CO2 in the air using sensor with cavity ring down technique  
+crdCo2ValvLvl,Sampling valves to control the delivery of the air sample from a specific tower level to storage/profile isotopic analyzer PICARRO G2131-I
+crdH2o,Measurements of H2O and isotopic 18O and 2H in H2O in the air using sensor with cavity ring down technique 
+crdH2oValvLvl,Sampling valves to control the delivery of the air sample from a specific tower level to storage/profile isotopic analyzer PICARRO L2130-I
+crdH2oValvVali,Valves to control and swith between sampling mode and field validation mode 
+data,Represents data fields
+DCFS,Dakota Coteau Field School NEON site code
+DEJU,Delta Junction NEON site code
+DELA,Dead Lake NEON site code
+densMoleCo2,CO2 molar density
+densMoleH2o,H2O molar density
+dfSd,Calibration coefficients. Degrees of Freedom for calculating repeatability (Standard deviation)
+dfUcrtAve,Calibration coefficients. Degrees of Freedom for calculating combined uncertainty  using averaged data
+dfUcrtRaw,Calibration coefficients. Degrees of Freedom for calculating combined uncertainty  using raw data
+dlta13CCo2,"?13C calculated from the ratio of stable isotopes 13C:12C in CO2, relative to the Vienna Pee Dee Belemnite (VPDB)"
+dlta13CCo2Refe,"?13C calculated from the ratio of stable isotopes 13C:12C in CO2 in a reference gas, relative to the Vienna Pee Dee Belemnite (VPDB)"
+dlta18OH2o,"?18O calculated from the ratio of stable isotopes 18O:16O in H2O, relative to the Vienna Standard Mean Ocean Water (VSMOW)"
+dlta18OH2oRefe,"?18O calculated from the ratio of stable isotopes 18O:16O in H2O in a reference water standard, relative to the Vienna Standard Mean Ocean Water (VSMOW)"
+dlta18OH2oRefeHigh,"?18O calculated from the ratio of stable isotopes 18O:16O in H2O in High H2O reference standard, relative to the Vienna Standard Mean Ocean Water (VSMOW)"
+dlta18OH2oRefeLow,"?18O calculated from the ratio of stable isotopes 18O:16O in H2O in Low H2O reference standard, relative to the Vienna Standard Mean Ocean Water (VSMOW)"
+dlta18OH2oRefeMed,"?18O calculated from the ratio of stable isotopes 18O:16O in H2O in Medium (intermediate) H2O reference standard, relative to the Vienna Standard Mean Ocean Water (VSMOW)"
+dlta2HH2o,"?2H calculated from the ratio of stable isotopes 2H:1H in H2O, relative to the Vienna Standard Mean Ocean Water (VSMOW)"
+dlta2HH2oRefe,"?2H calculated from the ratio of stable isotopes 2H:1H in H2O in a reference water standard, relative to the Vienna Standard Mean Ocean Water (VSMOW)"
+dlta2HH2oRefeHigh,Ratio of stable isotopes 2H:1H in high H2O reference standard
+dlta2HH2oRefeLow,Ratio of stable isotopes 2H:1H in low H2O reference standard
+dlta2HH2oRefeMed,Ratio of stable isotopes 2H:1H in medium H2O reference standard
+dp01,"Level 1 data products, indicating calibration, corrections, quality control, and averaging has been performed"
+dp0p,"Level 0' data products, meaning some preprocessing has been performed."
+DSNY,Disney Wilderness Preserve NEON site code
+Dspk$Br86$MaxReso,Brock (1986) de-spiking resolution threshold; spike if deviation larger than measurement resolution x Dspk$Br86$MaxReso
+Dspk$Br86$NumBin,Brock (1986) de-spiking number of initial PDF bins
+Dspk$Br86$NumWndw,Brock (1986) de-spiking window width of median filter in number of data points; needs to be an odd number
+envHut,"Environmental Hut, where most storage/profile sensors are installed"
+fluxHeatSoil,Soil heat flux
+FreqSamp,The frequency the data is being collected in Hertz (Hz)
+frt,"Flow rate (frt) at site temperature and pressure, synonymous with volumetric flow rate"
+frt00,"Flow rate (frt) at National Institute of Standards and Technology standard conditions (0, which are  293.15 K, 101.325 kPa), synonymous with mass flow rate"
+frt00Samp,"Sampling (samp) flow rate (frt) at National Institute of Standards and Technology standard conditions (0, which are  293.15 K, 101.325 kPa), synonymous with mass flow rate"
+frtSet00,"Flow rate (frt) set point (Set) at National Institute of Standards and Technology standard conditions (0, which are 293.15 K, 101.325 kPa), synonymous with mass flow rate set point"
+gasRefe,Reference gases
+GRSM,"Great Smoky Mountains National Park, Twin Creeks NEON site code"
+GUAN,Guanica Forest NEON site code
+h2oHigh_03m,data product during field calibration/validation using High water reference standard with known ?18O and ?2H values and 3 minute time resolution (TMI = 03m)
+h2oHigh_30m,data product during field calibration/validation using High water reference standard with known ?18O and ?2H values and 30 minute time resolution (TMI = 30m)
+h2oLow_03m,data product during field calibration/validation using Low water reference standard with known ?18O and ?2H values and 3 minute time resolution (TMI = 03m)
+h2oLow_30m,data product during field calibration/validation using Low water reference standard with known ?18O and ?2H values and 30 minute time resolution (TMI = 30m)
+h2oMed_03m,data product during field calibration/validation using Medium (intermediate) water reference standard with known ?18O and ?2H values and 3 minute time resolution (TMI = 03m)
+h2oMed_30m,data product during field calibration/validation using Medium (intermediate) water reference standard with known ?18O and ?2H values and 30 minute time resolution (TMI = 30m)
+h2oRefe,Reference water standards
+h2oSoilVol,Volumetric soil water content
+h2oStor,Storage (or profile) H2O related data products
+h2oTurb,Turbulence H2O related data products
+HARV,Harvard Forest NEON site code
+HEAL,Healy NEON site code
+heatInlt,Heater applied to tubing inlet
+idGas,Gas spectrum ID 
+idx,Index value (idx)
+injNum,Injection numbers of a liquid water reference standard
+ionSoilVol,Volumetric soil ion content
+irgaCo2,The level 0' data product name for infrared gas analyzer CO2 data
+irgaH2o,The level 0' data product name for  infrared gas analyzerH2o data
+irgaSndValiNema,The level 0' data product name for irga validation solenoid valve data from solenoids located in the National Electrical Manufacturer's Association (NEMA) enclosure on the tower top
+irgaStor,IRGA used to perform storage/profile CO2/H2O measruements
+irgaTurb,IRGA used to perform turbulence CO2/H2O measruements
+irgaValvLvl,Sampling valves to control the delivery of the air sample from a specific tower level to storage/profile LI840A IRGA
+isoCo2,Atmospheric CO2 stable isotopic data products 
+isoH2o,Atmospheric H2O stable isotopic data products 
+JERC,Jones Ecological Research Center NEON site code
+JORN,Jornada LTER NEON site code
+KONA,Konza Prairie Biological Station Agriculture site NEON site code
+KONZ,Konza Prairie Biological Station NEON site code
+Lag$TimeDiff,lag time; negative time value indicates trailing behind vertical wind; determined on-the-fly if set to NA
+LAJA,Lajas Experimental Station NEON site code
+LENO,Lenoir Landing NEON site code
+Loc,Location or measurement site
+lvIirga,"Measurement location (measurement level 1, measurement level 2, etc) that air is pulled from for the measurements by LI-COR LI840A IRGA"
+lvlCrdCo2,"Measurement location (measurement level 1, measurement level 2, etc) that air is pulled from for the measurements by PICARRO G2131-I analyzer"
+lvlCrdH2o,"Measurement location (measurement level 1, measurement level 2, etc) that air is pulled from for the measurements by PICARRO L2130-I analyzer"
+max,The maximum value of the variable during the given time period
+mean,Statistical mean or average of the variable during the given time period
+measTypeCrdCo2,"Measurement type for PICARRO G2131-I cavity ring down isotopic analyzer (i.e., sampling or validation)"
+measTypeCrdH2o,"Measurement type for PICARRO L2130-I cavity ring down isotopic analyzer (i.e., sampling or validation)"
+measTypeIrga,"Measurement type for LI-COR LI840A IRGA (i.e., sampling or validation or calibration)"
+mfcSampStor,Mass flow controller to control the air flow to pass through storage/profile LI840A IRGA
+mfcValiStor,Mass flow controller to control the delivery of reference gases to storage/profile LI840A IRGA or PICARRO G2131-I analysizer 
+mfcValiTurb,Mass flow controller to control the delivery of reference gases to turbulent exchange gas analyzer (LI7500)
+mfcSampTurb,Mass flow controller to control the air flow to pass through turbulent exchange gas analyzer (LI7500)
+mfm,"Mass flow meter to determine the flow rate of the air samples that are pulled from inlet on tower levels, through tubing and exhausted at pump vent"
+Mfr,Name of the sensor manufacturer
+min,The minimum value of the variable during the given time period
+MLBS,Mountain Lake Biological Station NEON site code
+MOAB,Moab NEON site code
+Modl,Sensor model
+NIWO,Niwot Ridge Mountain Research Station NEON site code
+NOGP,Northern Great Plains Research Laboratory NEON site code
+numSamp,The number of good samples of the variable during the given time period
+OAES,Klemme Range Research Station NEON site code
+ONAQ,Onaqui-Ault NEON site code
+ORNL,Oak Ridge NEON site code
+OSBS,Ordway-Swisher Biological Station NEON site code
+Pers$DiffMin,"Value threshold for the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time"
+Pers$TimeDiff,"Time step for the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time"
+Pf$AngEnuXaxs,planar fit roll angle; determined on-the-fly if set to NA
+Pf$AngEnuYaxs,planar fit pitch angle; determined on-the-fly if set to NA
+Pf$Ofst,planar fit offset; determined on-the-fly if set to NA
+potCool,Li-7200 cooler voltage
+powrCo2Refe,CO2 reference power
+powrCo2Samp,CO2 sample power
+powrH2oRefe,H2O reference power
+powrH2oSamp,H2O sample power
+PrdIncrAgrDflt,"step-size by which ""period aggregation"" moves through the central day of ""period planar-fit/Wavelet"", currently planned for 30 min, 1 min, and 2 min wind statistics for L1"
+PrdLvlSamp,Time spent on each level for measurements
+PrdWndwAgrDflt,"defining the time-block resolution for which outputs are being reported over the central day of ""period planar-fit/Wavelet"", currently planned for 30 min, 1 min, and 2 min wind statistics for L1"
+pres,Pressure. 
+presAtm,"Pressure (pres), measured as atmospheric (Atm) pressure, synonymous with absolute pressure or total pressure (at sea level the standard atmospheric pressure is 101.325 kPa)"
+presBaro,Barometric pressure
+presCor,Barometric pressure corrected to sea level
+presDiff,"Pressure (pres), measured as differential against ambient pressure, synonymous with gage (Diff) pressure (at sea level the gage pressure equals total pressure minus 101.325 kPa)"
+presEnvHut,Atmospheric pressure measured in Environment Hut where the storage/profile sensors sit
+presInlt,Air pressure measured at the tubing inlet behind the critical orifice at each tower levels. 
+presSum,Total pressure (LI–7550 box pressure + head pressure)
+presTrap,Pressure in the water trap
+presValiRegInStor,Air pressure for a reference gas cylindar
+presValiRegOutStor,Air pressure delivered from gas cyliner to devices
+presValiRegInTurb,Air pressure for a reference gas cylindar
+presValiRegOutTurb,Air pressure delivered from gas cyliner to devices
+presValiLineTurb,Air pressure line from gas cyliner to devices
+pumpStor,Pumps to pull air samples for storage/profile measurements
+pumpTurb,Pumps to pull air samples for turbulence measurements
+pumpVolt,The pump (pump) voltage (Voltage) provided by the LC to the pump
+PUUM,Pu'u Maka'ala Natural Area Reserve NEON site code
+qfAmrsFilt,"Sensor signal flag: Filter Valid (indicates if input into filter orientation filter is reliable and/or complete)(1=pass, 0=fail, -1=NA (i.e, couldn't be run)) "
+qfAmrsRng,Sensor signal flag: Clipping indication
+qfAmrsVal,Sensor signal flag: Selftest (gives the result of the last manually ran self-test)
+qfAmrsVelo,Sensor signal flag: NoVelocityUpdate status
+qfCalAsrpCo2,Flag indicates that the sensor is overdue for calibration
+qfCalAsrpH2o,Flag indicates that the sensor is overdue for calibration
+qfCalDensMoleCo2,Flag indicates that the sensor is overdue for calibration.
+qfCalDensMoleH2o,Flag indicates that the sensor is overdue for calibration
+qfCalDlta13CCo2,Flag indicates that the sensor is overdue for calibration
+qfCalDlta18OH2o,Flag indicates that the sensor is overdue for calibration
+qfCalDlta2HH2o,Flag indicates that the sensor is overdue for calibration
+qfCalFrt,Flag indicates that the sensor is overdue for calibration
+qfCalFrt00,Flag indicates that the sensor is overdue for calibration
+qfCalPotCool,Flag indicates that the sensor is overdue for calibration
+qfCalPowrCo2Refe,Flag indicates that the sensor is overdue for calibration
+qfCalPowrCo2Samp,Flag indicates that the sensor is overdue for calibration.
+qfCalPowrH2oRefe,Flag indicates that the sensor is overdue for calibration
+qfCalPowrH2oSamp,Flag indicates that the sensor is overdue for calibration
+qfCalPres,Flag indicates that the sensor is overdue for calibration
+qfCalPresAtm,Flag indicates that the sensor is overdue for calibration
+qfCalPresDiff,Flag indicates that the sensor is overdue for calibration
+qfCalPresSum,Flag indicates that the sensor is overdue for calibration
+qfCalRh,Flag indicates that the sensor is overdue for calibration
+qfCalRtioMoleDry12CCo2,Flag indicates that the sensor is overdue for calibration
+qfCalRtioMoleDry13CCo2,Flag indicates that the sensor is overdue for calibration
+qfCalRtioMoleDryCo2,Flag indicates that the sensor is overdue for calibration
+qfCalRtioMoleDryH2o,Flag indicates that the sensor is overdue for calibration
+qfCalRtioMoleWet12CCo2,Flag indicates that the sensor is overdue for calibration
+qfCalRtioMoleWetCo2,Flag indicates that the sensor is overdue for calibration
+qfCalRtioMoleWetH2o,Flag indicates that the sensor is overdue for calibration
+qfCalSsiCo2,Flag indicates that the sensor is overdue for calibration
+qfCalSsiH2o,Flag indicates that the sensor is overdue for calibration
+qfCalTemp,Flag indicates that the sensor is overdue for calibration
+qfCalTemp01,Flag indicates that the sensor is overdue for calibration
+qfCalTemp02,Flag indicates that the sensor is overdue for calibration
+qfCalTemp03,Flag indicates that the sensor is overdue for calibration
+qfCalTempIn,Flag indicates that the sensor is overdue for calibration
+qfCalTempMean,Flag indicates that the sensor is overdue for calibration
+qfCalTempOut,Flag indicates that the sensor is overdue for calibration
+qfCalTempRefe,Flag indicates that the sensor is overdue for calibration
+qfCalTempSoni,Flag indicates that the sensor is overdue for calibration
+qfCalTempWbox,Flag indicates that the sensor is overdue for calibration
+qfCalVeloSoni,Flag indicates that the sensor is overdue for calibration
+qfCalVeloXaxs,Flag indicates that the sensor is overdue for calibration
+qfCalVeloYaxs,Flag indicates that the sensor is overdue for calibration
+qfCalVeloZaxs,Flag indicates that the sensor is overdue for calibration
+qfFinl,"The final quality flag indicating if the data are valid for the given aggregation period (1=fail, 0=pass)"
+qfFlow,"Flag indicates whether the flow rate is adequate (1=fail, 0=pass, -1=NA (i.e., could not be run))"
+qfFrt00,"Flag indicates whether the gas flow rate is within the acceptable tolerance (1=fail, 0=pass, -1=NA (i.e, could not be run)"
+qfGas01,"Qualifying flag (qf) indicating validation gas (Gas) number 1 solenoid status (1; 0 = close [default], 1 = open)"
+qfGas02,"Qualifying flag (qf) indicating validation gas (Gas) number 2 solenoid status (2; 0 = close [default], 1 = open)"
+qfGas03,"Qualifying flag (qf) indicating validation gas (Gas) number 3 solenoid status (3; 0 = close [default], 1 = open)"
+qfGas04,"Qualifying flag (qf) indicating validation gas (Gas) number 4 solenoid status (4; 0 = close [default], 1 = open)"
+qfGas05,"Qualifying flag (qf) indicating validation gas (Gas) number 5 solenoid status (5; 0 = close [default], 1 = open)"
+qfHeat,"Qualifying flag (qf) indicating the status of the heater (Heat) (0 = heater off [default], 1 = heater on)"
+qfIrgaAgc,Sensor flag (fL10: AGC)
+qfIrgaAux,Sensor flag (fL04: Aux input)
+qfIrgaChop,Sensor flag (fL06: Chopper)
+qfIrgaDetc,Sensor flag (fL07: Detector)
+qfIrgaHead,Sensor flag (fL01: Head detect)
+qfIrgaPll,Sensor flag (fL08: PLL)
+qfIrgaPres,Sensor flag (fL05: Differential pressure)
+qfIrgaSync,Sensor flag (fL09: Sync)
+qfIrgaTempIn,Sensor flag (fL03: Inlet temperature)
+qfIrgaTempOut,Sensor flag (fL02: Outlet temperature)
+qfLowRtioMoleWetH2o,Flag to indicate the humidity in the air measured by PICARRO L2130-I is below 5000 ppm
+qfPersAccXaxs,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersAccXaxsDiff,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersAccYaxs,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersAccYaxsDiff,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersAccZaxs,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersAccZaxsDiff,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersAngXaxs,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersAngYaxs,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersAngZaxs,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersAsrpCo2,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersAsrpH2o,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersAvelXaxs,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersAvelYaxs,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersAvelZaxs,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersDensMoleCo2,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersDensMoleH2o,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersDlta13CCo2,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfPersDlta18OH2o,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfPersDlta2HH2o,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfPersFrt,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersFrt00,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersPotCool,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersPowrCo2Refe,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersPowrCo2Samp,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersPowrH2oRefe,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersPowrH2oSamp,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersPres,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfPersPresAtm,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersPresDiff,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersPresSum,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersPumpVolt,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfPersRh,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfPersRtioMoleDry12CCo2,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfPersRtioMoleDry13CCo2,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfPersRtioMoleDryCo2,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersRtioMoleDryH2o,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersRtioMoleWet12CCo2,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfPersRtioMoleWet13CCo2,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfPersRtioMoleWetCo2,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfPersRtioMoleWetH2o,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfPersSsiCo2,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersSsiH2o,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersTemp,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersTemp01,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfPersTemp02,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfPersTemp03,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfPersTempIn,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersTempMean,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersTempOut,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersTempRefe,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersTempSoni,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersTempWbox,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfPersVeloSoni,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersVeloXaxs,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersVeloYaxs,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfPersVeloZaxs,"Flag produced by the persistence test, which indicates  whether there is a realistic fluctuation of values over a designated period of time, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfpresDiff,"Flag indicates whether the measured pressure is out of acceptable range (1 = yes, 0 = no)"
+qfqm,"Quality flag and quality metrics, represents quality flags and quality metrics that accompany the provided data"
+qfRh,"Flag indicates whether the relative humidity is outside the acceptable rangle (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfRngAcceZaxs,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngAccXaxs,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngAccXaxsDiff,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngAccYaxs,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngAccYaxsDiff,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngAccZaxsDiff,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngAngXaxs,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngAngYaxs,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngAngZaxs,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngAsrpCo2,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngAsrpH2o,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngAvelXaxs,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngAvelYaxs,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngAvelZaxs,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngDensMoleCo2,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngDensMoleH2o,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngDlta13CCo2,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfRngDlta18OH2o,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfRngDlta2HH2o,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfRngFrt,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngFrt00,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngPotCool,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngPowrCo2Refe,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngPowrCo2Samp,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngPowrH2oRefe,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngPowrH2oSamp,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngPres,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfRngPresAtm,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngPresDiff,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngPresSum,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngPumpVolt,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfRngRh,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfRngRtioMoleDry12CCo2,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfRngRtioMoleDry13CCo2,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfRngRtioMoleDryCo2,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngRtioMoleDryH2o,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngRtioMoleWet12CCo2,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfRngRtioMoleWet13CCo2,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfRngRtioMoleWetCo2,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfRngSsiCo2,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngSsiH2o,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngTemp,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngTemp01,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfRngTemp02,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfRngTemp03,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfRngTempIn,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngTempMean,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngTempOut,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngTempRefe,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngTempSoni,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngTempWbox,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfRngVeloSoni,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngVeloXaxs,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngVeloYaxs,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfRngVeloZaxs,"Flag produced by the range test, which indicates whether a datum exceeds a realistic value, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfSci,"The quality flag indicating if the data are valid after science review (1=fail, 0=pass)"
+qfSensStus,"Instrument status flag  (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfSoniCode,"Sensor error flag (QFSONIC,o5: Wrong embedded sensor code)"
+qfSoniComm,"Sensor error flag (QFSONIC,o4: SDM communications error)"
+qfSoniData,"Sensor error flag (QFSONIC,o2: No data available)"
+qfSoniSgnlHigh,"Sensor signal flag (QFSONIC,s3: High signal amplitude)"
+qfSoniSgnlLow,"Sensor signal flag (QFSONIC,s4: Low signal amplitude)"
+qfSoniSgnlPoor,"Sensor signal flag (QFSONIC,s2: Poor signal lock)"
+qfSoniTemp,"Sensor signal flag (QFSONIC,s1: Axes TSONIC difference > 4 K)"
+qfSoniTrig,"Sensor error flag (QFSONIC,o3: Sensor trigger source lost) "
+qfSoniUnrs,"Sensor error flag (QFSONIC,o1: Sensor unresponsive)"
+qfStepAccXaxs,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepAccXaxsDiff,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepAccYaxs,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepAccYaxsDiff,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepAccZaxs,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepAccZaxsDiff,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepAngXaxs,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepAngYaxs,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepAngZaxs,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepAsrpCo2,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepAsrpH2o,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepAvelXaxs,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepAvelYaxs,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepAvelZaxs,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepDensMoleCo2,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepDensMoleH2o,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepDlta13CCo2,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfStepDlta18OH2o,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfStepDlta2HH2o,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfStepFrt,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfStepFrt00,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfStepPotCool,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepPowrCo2Refe,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepPowrCo2Samp,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepPowrH2oRefe,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepPowrH2oSamp,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepPres,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfStepPresAtm,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepPresDiff,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepPresSum,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepPumpVolt,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfStepRh,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfStepRtioMoleDry12CCo2,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfStepRtioMoleDry13CCo2,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfStepRtioMoleDryCo2,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepRtioMoleDryH2o,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepRtioMoleWet12CCo2,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfStepRtioMoleWet13CCo2,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfStepRtioMoleWetCo2,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfStepSsiCo2,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepSsiH2o,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepTemp,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepTemp01,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfStepTemp02,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfStepTemp03,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfStepTempIn,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepTempMean,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepTempOut,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepTempRefe,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepTempSoni,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepTempWbox,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfStepVeloSoni,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepVeloXaxs,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepVeloYaxs,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStepVeloZaxs,"Flag produced by the step test, which indicates whether unusual jumps in the data exist, detailed in NEON.DOC.011081 (1=fail, 0=pass, -1=NA (i.e, couldn't be run))"
+qfStusN2,"Flag to indicate if the N2Flag is correctly set to air mode (0 = pass, 1 = fail)"
+qfTemp,"Flag indicates whether the temperature is outside the acceptable rangle (1=fail, 0=pass, -1=NA (i.e, could not be run))"
+qfValvIrga,"Flag indicates whether the system fails because IRGA vent valve is open (1=fail, 0=pass, -1=NA (i.e, could not be run)"
+qmAlph,Quality metric alpha indicating the percentage of failed quality flags during an aggregation period
+qmBeta,Quality metric beta indicating the percentage of the data where quality flags could not be assessed due to missing information or data during an aggregation period
+radiLwIn,Incoming long wave radiation
+radiLwOut,Outgoing long wave radiation
+radiNet,Net radiation
+radiSwIn,Incoming short wave radiation
+radiSwOut,Outgoing short wave radiation
+rh,Relative humidity
+rhEnvHut,Atmospheric relative humidity measured in Environment Hut where the storage/profile sensors sit
+RMNP,"Rocky Mountain National Park, CASTNET NEON site code"
+Rng$Max,"Upper threshold for the range test, which indicates whether a datum exceeds a realistic value"
+Rng$Min,"Lower threshold for the range test, which indicates whether a datum exceeds a realistic value"
+rtioDryMole12CCo2Refe,Mixing ratio of 12CO2 in CO2 (dry mole fraction) in CO2 reference gas standards
+rtioDryMole13CCo2Refe,Mixing ratio of 13CO2 in CO2 (dry mole fraction) in CO2 reference gas standards
+rtioDryMoleCo2Refe,CO2 mixing ratio (dry mole fraction) in CO2 reference gas standards
+rtioMoleDry12CCo2,12CO2 mixing ratio (dry mole fraction)
+rtioMoleDry13CCo2,Mixing ratio of 13CO2 in CO2 (dry mole fraction)
+rtioMoleDryCo2,CO2 mixing ratio (dry mole fraction)
+rtioMoleDryCo2Refe,CO2 mixing ratio (dry mole fraction) for a reference gas
+rtioMoleDryH2o,H2O mixing ratio (dry mole fraction)
+rtioMoleWet12CCo2,12CO2 mixing ratio (wet mole fraction) at its nature site environmental conditions
+rtioMoleWetCo2,CO2 mixing ratio (wet mole fraction) at its nature site environmental conditions
+rtioMoleWetH2oEnvHut,H2O mixing ratio (wet mole fraction) at its nature environmental conditions measured in Environment Hut where the storage/profile sensors sit
+SCBI,Smithsonian Conservation Biology Institute NEON site code
+sd,Calibration coefficient. Standard deviation of the variable during the given time period
+se,Standard error of the variable during the given time period
+sensStus,Instrument status 
+SERC,Smithsonian Environmental Research Center NEON site code
+SJER,San Joaquin Experimental Range NEON site code
+SOAP,Soaproot Saddle NEON site code
+soni,The level 0' and level 1 data product name for sonic anemometer data
+SpacWndwAgrDflt,"spatial aggregation window: defining the spatial resolution for which default outputs are being reported over the ECSE measurement profiles , currently planned for 0.1 m for L3"
+SRER,Santa Rita Experimental Range NEON site code
+ssiCo2,CO2 signal strength
+ssiH2o,H2O signal strength
+STEI,Steigerwaldt Land Services NEON site code
+Step$DiffMax,"Thresheold for the step test, which indicates whether unusual jumps in the data exist"
+STER,"North Sterling, CO NEON site code"
+stusN2,"Signal to indicate if the instrument is processing the data for N2 gas or background air. 0=air mode, 1=N2 mode"
+TALL,Talladega National Forest NEON site code
+TEAK,Lower Teakettle NEON site code
+temp,Temperature (temp)
+temp01,Temperature (temp) measured by temperature sensor 1
+temp02,Temperature (temp) measured by temperature sensor 2
+temp03,Temperature (temp) measured by temperature sensor 3
+tempAir,corrected air temperature
+tempAirLvl,"Air temperature measured at the tower storage/profile measurement levels, excluding top level"
+tempAirTop,Air temperature measured at the tower top level
+tempAve,The average(ave) infrared gas analyzer cell temperature (temp)
+tempDew,Dew point temperature
+tempEnvHut,Temperature measured in Environment Hut where the storage/profile sensors sit
+tempIn,Cell temperature in (at sensor head inlet)
+tempMean,Cell temperature (weighted average of head inlet and outlet temperature)
+tempOut,Cell temperature out (at sensor head inlet)
+tempRefe,Block reference (Refe) temperature
+tempSoil,Soil temperature 
+tempSoni,Sonic temperature (TSONIC)
+tempWbox,Temperature (temp) measured at PICARRO warm box
+timeBgn,The beginning time of the aggregation period
+timeEnd,The end time of the aggregation period
+TOOL,Toolik NEON site code
+TREE,Treehaven NEON site code
+typeGas,The type of reference standard gas that is used for validation.
+typeGasCrdH2o,The zero air gas status for crdH2o during L2130-I validation
+typeH2o,The type of reference water standard that is used for validation.
+ucrt,"Uncertainty, represents uncertainty quantification for the provided data"
+ucrtAve,Calibration coefficients. Combined uncertainty calculated using average data
+ucrtRaw,Calibration coefficients. Combined uncertainty calculated using raw data
+UKFS,The University of Kansas Field Station NEON site code
+UNDE,University of Notre Dame Environmental Research Center (UNDERC) NEON site code
+Val$PrdFld,Time interval between field validation cycles
+valv,State of 3-way solenoid valve on PICARRO L2130-I vaporizer (0 = close; 1 = open)
+valv01,State of solenoid valve 1 (0 = close; 1 = open)
+valv02,State of solenoid valve 2 (0 = close; 1 = open)
+valv03,State of solenoid valve 3 (0 = close; 1 = open)
+valv04,State of solenoid valve 4 (0 = close; 1 = open)
+valv05,State of solenoid valve 5 (0 = close; 1 = open)
+valv06,State of solenoid valve 6 (0 = close; 1 = open)
+valv07,State of solenoid valve 7 (0 = close; 1 = open)
+valv08,State of solenoid valve 8 (0 = close; 1 = open)
+valvAux,Valves to control the delivery of air flow to designated directions
+valvCrdH2o,"State of external solenoid valves if attached to PICARRO L2130-i, as a decimal representation of valves 1-6 where each valve is a binary bit (e.g., valve 1 = 1, valve 2 = 2, valve 3 = 4, etc. and the values are added)"
+valvLeakHeatTurb,Valves to control the leak test and IRGA heaters in the turbulence subsystem
+valvValiStor,Valves to control the delivery of different reference gases to sensors during field calibration/validation period
+valvValiHutTurb,Valves in the instrument hut to control the delivery of different reference gases to turbulence sensors during field validation periods
+valvValiNemaTurb,Valves in the tower top enclosure to control the delivery of different reference gases to turbulence sensors during field validation periods
+vari,The variance of the variable during the given time period
+veloSoni,Linear velocity (velo) of sound (Soni)
+veloXaxs,"Linear velocity (velo) of wind in 3-D sonic anemometer along-axis direction (Xaxs), positive backward"
+veloXaxsErth,Linear velocity (velo) of wind in 3-D sonic anemometer along-axis direction (Xaxs) after rotation into the geodetic coordinate system
+veloXaxsYaxsErth,Horizontal wind speed
+veloYaxs,"Linear velocity (velo) of wind in 3-D sonic anemometer cross-axis direction (Yaxs), positive right"
+veloYaxsErth,Linear velocity (velo) of wind in 3-D sonic anemometer cross-axis direction (Yaxs) after rotation into the geodetic coordinate system
+veloZaxs,"Linear velocity (velo) of wind in 3-D sonic anemometer vertical-axis direction (Zaxs), positive upwards"
+veloZaxsErth,Linear velocity (velo) of wind in 3-D sonic anemometer vertical-axis direction (Zaxs) after rotation into the geodetic coordinate system
+VersEddy,Version number of the eddy4R code used for processing
+VersFmw,Firmware version that the sensor is running
+WOOD,Woodworth NEON site code
+WREF,Wind River Experimental Forest NEON site code
+YELL,Yellowstone Northern Range (Frog Rock) NEON site code
+ZoneTime,Local time zone of the measurement site
