@@ -48,4 +48,4 @@ vignettes/*.pdf
 *neonstore*
 
 # python
-#*.ipynb_checkpoints
+*.ipynb_checkpoints
