@@ -46,3 +46,6 @@ vignettes/*.pdf
 #*eddy_covariance*
 *filesToStack00200*
 *neonstore*
+
+# python
+*.ipynb_checkpoints
