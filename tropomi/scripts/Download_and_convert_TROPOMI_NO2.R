@@ -49,7 +49,7 @@ if (! file.exists(local_figure_dir)) dir.create(file.path(local_figure_dir),recu
 #temis_data_url <- "https://d1qb6yzwaaq4he.cloudfront.net/tropomi/no2/2020/12/no2_202012.asc.gz"
 temis_data_url <- "https://d1qb6yzwaaq4he.cloudfront.net"
 product_year <- 2021
-product_months <- seq(03,04,1)
+product_months <- seq(05,06,1)
 overwrite_download = TRUE
 run_parallel = TRUE
 if (run_parallel) {  # temporary work around
