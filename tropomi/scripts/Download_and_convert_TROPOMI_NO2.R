@@ -21,7 +21,7 @@ closeAllConnections()   # close any open connections to files
 
 #--------------------------------------------------------------------------------------------------#
 #### Load R libraries
-list.of.packages <- c("raster","maps","mapdata","ggplot2")
+list.of.packages <- c("raster","maps","mapdata","ggplot2","here")
 # check for dependencies and install if needed
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages, dependencies=c("Depends", "Imports",

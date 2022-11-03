@@ -59,8 +59,8 @@ products[i, c("productCode", "productName")]
 all_sites <- neonstore::neon_sites()
 
 sites <- c("TALL", "NIWO")
-startdate <- "2017-12-01"
-enddate <- "2020-01-01"
+startdate <- "2020-01-01"
+enddate <- "2022-01-01"
 #--------------------------------------------------------------------------------------------------#
 
 
@@ -228,6 +228,49 @@ for (i in seq_along(1:2)) { #-- could just make this a function
   rm(plot_data) 
 }
 #--------------------------------------------------------------------------------------------------#
+
+
+#--------------------------------------------------------------------------------------------------#
+
+plt_year <- "2021"
+plot_data <- fluxes[[sites[1]]] %>%
+  filter(qfqm.fluxCo2.nsae.qfFinl==0) %>%
+  filter(timeBgn >= as.POSIXct("2021-01-01", tz="GMT")) %>%
+  filter(timeBgn <= as.POSIXct("2021-12-31", tz="GMT")) %>%
+  filter(lubridate::hour(timeBgn) >= 2) %>%
+  filter(lubridate::hour(timeBgn) <= 13)
+   
+png(file = file.path(figure_dir, paste0(sites[1],"_NSAE_CO2_flux_July",
+                                        plt_year,"_QC.png")), 
+    height=3000,width=4900, res=340)
+par(mfrow=c(1,1), mar=c(4.5,5.0,1,0.4), oma=c(0.3,0.9,0.3,0.1)) # B, L, T, R        
+plot(plot_data$data.fluxCo2.nsae.flux~plot_data$timeBgn, 
+     pch=20, cex=2, xlab="Date", ylab="Net Surface-Atmosphere CO2 flux (umolCo2 m-2 s-1)", 
+     ylim=c(-23,23), main = paste0("NEON_",plt_year,"_",sites[1],"_QC"),
+     cex.lab=1.6,cex.axis=1.6)
+abline(h=0, lty=2, col="dark grey", lwd=2.2)
+box(lwd=2.2)
+dev.off()
+
+
+
+
+nee_cumsum <- cumsum(coalesce(plot_data$data.fluxCo2.nsae.flux, 0)) + 
+  plot_data$data.fluxCo2.nsae.flux*0
+#plot(plot_data$timeBgn,nee_cumsum)
+
+png(file = file.path(figure_dir, paste0(sites[1],"_NSAE_CO2_flux_July",
+                                        plt_year,"_QC_cumsum.png")), 
+    height=3000,width=4900, res=340)
+par(mfrow=c(1,1), mar=c(4.5,5.0,1,0.4), oma=c(0.3,0.9,0.3,0.1)) # B, L, T, R   
+plot(plot_data$timeBgn,nee_cumsum, type="l", lwd=12,
+     pch=20, cex=2, xlab="Date", ylab="Cumulative NEE", 
+     main = paste0("NEON_",plt_year,"_",sites[1],"_QC"),
+     cex.lab=1.6,cex.axis=1.6)
+box(lwd=2.2)
+dev.off()
+#--------------------------------------------------------------------------------------------------#
+
 
 
 #--------------------------------------------------------------------------------------------------#
